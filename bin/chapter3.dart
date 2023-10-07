@@ -1,3 +1,5 @@
+import 'chapter3solution.dart';
+
 class Chapter3 {
   // Exercise 1: Mengembalikan string dengan setiap huruf kedua diubah menjadi huruf besar.
   // Contoh: "hello" seharusnya menjadi "hElLo"
@@ -1050,7 +1052,7 @@ class Chapter3 {
   }
 }
 
-// void main() {
-//   Chapter3 exercises = Chapter3();
-//   exercises.runTests();
-// }
+void main() {
+  Chapter3 exercises = Chapter3();
+  exercises.runTests();
+}
